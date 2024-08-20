@@ -51,14 +51,12 @@ body{
     font-family: 'Pokemon Normale';
 }
 
-.bo1{
-
-    background-image: url(https://pixabay.com/get/g295d7e716118f892c0983423dd568c286432cb7a824f3b11baaf8b677ac3ddc5ccf43144150a4ca1b28b3dd393f182c82ab0326a7cb34054f0064577eede6d36_1280.png);
-    margin: 160px   auto;
+.img1{
+    background-image: url(https://pixabay.com/get/g8d4b5851b141602559bac2bbfb099470d0b12488d8ee000615f060218feec79c555dbde0f12e49bc095d846a8cdb8b23f5b85927968452a6fc05c3362d80ddbd_1280.png);
+    background-position: center;
     background-repeat: no-repeat;
-    background-position:center;
+    padding-top: 350px;
 }
-
 
 
 /* NavBar */
