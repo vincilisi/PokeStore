@@ -46,6 +46,21 @@ h1, h2, h3, h4{
     color: var(--slateGray);
 }
 
+body{
+    background-color: rgb(255, 250, 250);
+    font-family: 'Pokemon Normale';
+}
+
+.bo1{
+
+    background-image: url(https://pixabay.com/get/g295d7e716118f892c0983423dd568c286432cb7a824f3b11baaf8b677ac3ddc5ccf43144150a4ca1b28b3dd393f182c82ab0326a7cb34054f0064577eede6d36_1280.png);
+    margin: 160px   auto;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+
+
 /* NavBar */
 .logo{
     width: 150px;
