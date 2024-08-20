@@ -1,0 +1,72 @@
+/* Stile-Custom */
+:root{
+    --roseVale: rgb(173, 80, 88);
+    --darkVanilla: rgb(215, 185, 171);
+    --japanIndacol: rgb(35, 53, 75);
+    --slateGray: rgb(103, 135, 139);
+}
+
+h1, h2, h3, h4{
+    font-family: 'Pokemon Solid' ;
+}
+
+*{
+    font-family: 'Pokemon Normale';
+}
+
+.bg-roseVale{
+    background-color: var(--roseVale);
+}
+
+.text-roseVale{
+    color: var(--roseVale);
+}
+
+.bg-darkVanilla{
+    background-color: var(--darkVanilla);
+}
+
+.text-darkVanilla{
+    color: var(--darkVanilla);
+}
+
+.bg-japanIndaco{
+    background-color: var(--japanIndacol);
+}
+
+.text-japanIndaco{
+    color: var(--japanIndacol);
+}
+
+.bg-slateGray{
+    background-color: var(--slateGray);
+}
+
+.text-slateGray{
+    color: var(--slateGray);
+}
+
+/* NavBar */
+.logo{
+    width: 150px;
+}
+
+.logo2{
+    width: 150px;
+    margin-left: 70px;
+    transition: 0.5s;
+}
+
+.ul-custom{
+   margin-left: 40%;
+   font-size: 35px;
+}
+
+.ul-cu{
+    color: var(--darkVanilla);
+}
+
+.ul-cu:hover{
+    box-shadow: 2px 2px 5px var(--roseVale), -2px -2px 5px var(--roseVale);
+    color: var(--roseVale);
+}
