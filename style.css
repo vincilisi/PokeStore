@@ -51,13 +51,12 @@ body{
     font-family: 'Pokemon Normale';
 }
 
-.img1{
-    background-image: url(https://pixabay.com/get/g8d4b5851b141602559bac2bbfb099470d0b12488d8ee000615f060218feec79c555dbde0f12e49bc095d846a8cdb8b23f5b85927968452a6fc05c3362d80ddbd_1280.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-top: 350px;
+.pb{
+    padding-top: 200px;
+    text-align: center;
+    color: var(--japanIndacol);
+    font-size: 70px;
 }
-
 
 /* NavBar */
 .logo{
@@ -82,4 +81,28 @@ body{
 .ul-cu:hover{
     box-shadow: 2px 2px 5px var(--roseVale), -2px -2px 5px var(--roseVale);
     color: var(--roseVale);
+}
+
+.img1{
+    background-image: url(./media/pokemon-1536848_640.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+
+.loc{
+    width: 30px;
+}
+
+.col-custom{
+    padding: 10px;
+    border: 3px solid var(--darkVanilla);
+    cursor: pointer;
+    transition: 0.7s;
+}
+.col-custom:hover{
+    transform: scale(1.2);
+   background-color: var(--japanIndacol);
+   color: var(--roseVale);
+   border: 2px solid var(--slateGray);
 }
