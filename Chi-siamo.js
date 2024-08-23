@@ -17,7 +17,7 @@ pokemon.forEach((poke)=>{
     circle.appendChild(div);
 });
 
-let MoveP = document.querySelectorAll('.movved');
+let MoveP = document.querySelectorAll('.moved');
 let check = false;
 opener.addEventListener('click',()=>{
     if (check == false){
